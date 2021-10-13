@@ -1,7 +1,8 @@
 const getFile = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve("data 2");
+            console.log('aaaaaaaa');
+            resolve("data 22222222222222222");
         }, 1000);
     });
 };
